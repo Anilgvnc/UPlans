@@ -21,3 +21,8 @@ C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.pdb
 C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.exe.config
 C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.exe
 C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.pdb
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.exe.manifest
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.application
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.TrustInfo.xml
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.exe.manifest
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.application

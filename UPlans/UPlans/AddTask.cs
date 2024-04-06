@@ -46,6 +46,7 @@ namespace UPlans
                 return;
             }
             lblColor.BackColor = dialog.Color;
+            taskColor = dialog.Color;
         }
     }
 }

@@ -167,7 +167,8 @@ namespace UPlans
                     if (control is Label label)
                     {
                         string name = label.Text;
-                        writer.WriteLine($"{name}");
+                        string colorName = label.ForeColor.Name;
+                        writer.WriteLine($"{name}, {colorName}");
                     }
                 }
             }
@@ -181,12 +182,14 @@ namespace UPlans
                 foreach (string line in lines)
                 {
                     string[] parts = line.Split(',');
-                    if (parts.Length == 1)
+                    if (parts.Length == 2)
                     {
                         string name = parts[0];
+                        Color color = Color.FromName(parts[1]);
 
                         Label label = new Label();
                         label.Text = name;
+                        label.ForeColor = color;
 
                         taskPanel.Controls.Add(label);
                     }
@@ -200,9 +203,11 @@ namespace UPlans
                 if (addTask.ShowDialog() == DialogResult.OK)
                 {
                     string taskName = addTask.taskName;
+                    Color taskColor = addTask.taskColor;
 
                     Label label = new Label();
                     label.Text = taskName;
+                    label.ForeColor = taskColor;
 
                     taskPanel.Controls.Add(label);
                     SaveTasks();

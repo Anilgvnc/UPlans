@@ -41,9 +41,9 @@
             this.groupWelcome = new System.Windows.Forms.GroupBox();
             this.lblDate = new System.Windows.Forms.Label();
             this.groupTask = new System.Windows.Forms.GroupBox();
-            this.taskPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnTaskAdd = new System.Windows.Forms.Button();
             this.btnTaskDelete = new System.Windows.Forms.Button();
+            this.btnTaskAdd = new System.Windows.Forms.Button();
+            this.taskPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.groupLink.SuspendLayout();
             this.groupPomodoro.SuspendLayout();
             this.groupWelcome.SuspendLayout();
@@ -194,10 +194,10 @@
             // 
             // lblDate
             // 
-            this.lblDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblDate.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Righteous", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.Location = new System.Drawing.Point(593, 27);
+            this.lblDate.Location = new System.Drawing.Point(593, 40);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(177, 61);
             this.lblDate.TabIndex = 1;
@@ -219,16 +219,23 @@
             this.groupTask.TabStop = false;
             this.groupTask.Text = "Tasks";
             // 
-            // taskPanel
+            // btnTaskDelete
             // 
-            this.taskPanel.Location = new System.Drawing.Point(7, 61);
-            this.taskPanel.Name = "taskPanel";
-            this.taskPanel.Size = new System.Drawing.Size(250, 230);
-            this.taskPanel.TabIndex = 0;
+            this.btnTaskDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnTaskDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.btnTaskDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTaskDelete.Font = new System.Drawing.Font("Righteous", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaskDelete.Location = new System.Drawing.Point(225, 23);
+            this.btnTaskDelete.Name = "btnTaskDelete";
+            this.btnTaskDelete.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskDelete.TabIndex = 4;
+            this.btnTaskDelete.Text = "X";
+            this.btnTaskDelete.UseVisualStyleBackColor = false;
+            this.btnTaskDelete.Click += new System.EventHandler(this.btnTaskDelete_Click);
             // 
             // btnTaskAdd
             // 
-            this.btnTaskAdd.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnTaskAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnTaskAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
             this.btnTaskAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTaskAdd.Font = new System.Drawing.Font("Righteous", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -240,19 +247,15 @@
             this.btnTaskAdd.UseVisualStyleBackColor = false;
             this.btnTaskAdd.Click += new System.EventHandler(this.btnTaskAdd_Click);
             // 
-            // btnTaskDelete
+            // taskPanel
             // 
-            this.btnTaskDelete.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnTaskDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
-            this.btnTaskDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnTaskDelete.Font = new System.Drawing.Font("Righteous", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaskDelete.Location = new System.Drawing.Point(225, 23);
-            this.btnTaskDelete.Name = "btnTaskDelete";
-            this.btnTaskDelete.Size = new System.Drawing.Size(32, 32);
-            this.btnTaskDelete.TabIndex = 4;
-            this.btnTaskDelete.Text = "X";
-            this.btnTaskDelete.UseVisualStyleBackColor = false;
-            this.btnTaskDelete.Click += new System.EventHandler(this.btnTaskDelete_Click);
+            this.taskPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.taskPanel.Location = new System.Drawing.Point(7, 61);
+            this.taskPanel.Name = "taskPanel";
+            this.taskPanel.Size = new System.Drawing.Size(250, 230);
+            this.taskPanel.TabIndex = 0;
             // 
             // main
             // 
@@ -265,6 +268,7 @@
             this.Controls.Add(this.groupWelcome);
             this.Controls.Add(this.groupLink);
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UPlans";

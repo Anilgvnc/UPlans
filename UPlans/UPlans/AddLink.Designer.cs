@@ -34,7 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnColor = new System.Windows.Forms.Button();
             this.lblColor = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -84,19 +84,20 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Button Color:";
             // 
-            // button3
+            // btnColor
             // 
-            this.button3.Location = new System.Drawing.Point(86, 122);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 25);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnColor.Location = new System.Drawing.Point(127, 122);
+            this.btnColor.Name = "btnColor";
+            this.btnColor.Size = new System.Drawing.Size(59, 25);
+            this.btnColor.TabIndex = 7;
+            this.btnColor.Text = "Select";
+            this.btnColor.UseVisualStyleBackColor = true;
+            this.btnColor.Click += new System.EventHandler(this.btnColor_Click);
             // 
             // lblColor
             // 
-            this.lblColor.BackColor = System.Drawing.Color.White;
-            this.lblColor.Location = new System.Drawing.Point(151, 122);
+            this.lblColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.lblColor.Location = new System.Drawing.Point(93, 122);
             this.lblColor.Name = "lblColor";
             this.lblColor.Size = new System.Drawing.Size(28, 25);
             this.lblColor.TabIndex = 8;
@@ -129,7 +130,7 @@
             this.ClientSize = new System.Drawing.Size(458, 239);
             this.ControlBox = false;
             this.Controls.Add(this.lblColor);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnColor);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label3);
@@ -155,7 +156,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnCancel;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnColor;
         private System.Windows.Forms.Label lblColor;
     }
 }

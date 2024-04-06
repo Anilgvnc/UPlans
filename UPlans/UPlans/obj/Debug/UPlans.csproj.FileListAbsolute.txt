@@ -9,3 +9,15 @@ C:\Users\anil\source\repos\UPlans\UPlans\obj\Debug\UPlans.csproj.CoreCompileInpu
 C:\Users\anil\source\repos\UPlans\UPlans\obj\Debug\UPlans.exe
 C:\Users\anil\source\repos\UPlans\UPlans\obj\Debug\UPlans.pdb
 C:\Users\anil\source\repos\UPlans\UPlans\obj\Debug\UPlans.AddLink.resources
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.csproj.AssemblyReference.cache
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.AddLink.resources
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.AddTask.resources
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.main.resources
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.Properties.Resources.resources
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.csproj.GenerateResource.cache
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.csproj.CoreCompileInputs.cache
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.exe
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\obj\Debug\UPlans.pdb
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.exe.config
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.exe
+C:\Users\anil\Documents\GitHub\UPlans\UPlans\UPlans\bin\Debug\UPlans.pdb

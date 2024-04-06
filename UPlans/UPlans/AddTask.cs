@@ -10,23 +10,21 @@ using System.Windows.Forms;
 
 namespace UPlans
 {
-    public partial class AddLink : Form
+    public partial class AddTask : Form
     {
-        public string linkName { get; private set; }
-        public string linkUrl { get; private set; }
-        public Color linkColor { get; private set; }
-        public AddLink()
+        public string taskName {  get; private set; }
+        public Color taskColor { get; private set; }
+        public AddTask()
         {
             InitializeComponent();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtName.Text) && !string.IsNullOrEmpty(txtUrl.Text))
+            if (!string.IsNullOrEmpty(txtName.Text))
             {
-                linkName = txtName.Text;
-                linkUrl = txtUrl.Text;
-                linkColor = lblColor.BackColor;
+                taskName = txtName.Text.Trim();
+                taskColor = lblColor.BackColor;
                 DialogResult = DialogResult.OK;
                 this.Close();
             }
@@ -48,7 +46,6 @@ namespace UPlans
                 return;
             }
             lblColor.BackColor = dialog.Color;
-            linkColor = dialog.Color;
         }
     }
 }

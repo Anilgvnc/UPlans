@@ -41,9 +41,13 @@
             this.groupWelcome = new System.Windows.Forms.GroupBox();
             this.lblDate = new System.Windows.Forms.Label();
             this.groupTask = new System.Windows.Forms.GroupBox();
+            this.taskPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnTaskAdd = new System.Windows.Forms.Button();
+            this.btnTaskDelete = new System.Windows.Forms.Button();
             this.groupLink.SuspendLayout();
             this.groupPomodoro.SuspendLayout();
             this.groupWelcome.SuspendLayout();
+            this.groupTask.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupLink
@@ -203,6 +207,9 @@
             // 
             this.groupTask.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupTask.Controls.Add(this.btnTaskDelete);
+            this.groupTask.Controls.Add(this.btnTaskAdd);
+            this.groupTask.Controls.Add(this.taskPanel);
             this.groupTask.Font = new System.Drawing.Font("Righteous", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupTask.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(99)))), ((int)(((byte)(61)))));
             this.groupTask.Location = new System.Drawing.Point(525, 145);
@@ -211,6 +218,41 @@
             this.groupTask.TabIndex = 3;
             this.groupTask.TabStop = false;
             this.groupTask.Text = "Tasks";
+            // 
+            // taskPanel
+            // 
+            this.taskPanel.Location = new System.Drawing.Point(7, 61);
+            this.taskPanel.Name = "taskPanel";
+            this.taskPanel.Size = new System.Drawing.Size(250, 230);
+            this.taskPanel.TabIndex = 0;
+            // 
+            // btnTaskAdd
+            // 
+            this.btnTaskAdd.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnTaskAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.btnTaskAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTaskAdd.Font = new System.Drawing.Font("Righteous", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaskAdd.Location = new System.Drawing.Point(187, 23);
+            this.btnTaskAdd.Name = "btnTaskAdd";
+            this.btnTaskAdd.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskAdd.TabIndex = 4;
+            this.btnTaskAdd.Text = "+";
+            this.btnTaskAdd.UseVisualStyleBackColor = false;
+            this.btnTaskAdd.Click += new System.EventHandler(this.btnTaskAdd_Click);
+            // 
+            // btnTaskDelete
+            // 
+            this.btnTaskDelete.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnTaskDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(70)))));
+            this.btnTaskDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTaskDelete.Font = new System.Drawing.Font("Righteous", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaskDelete.Location = new System.Drawing.Point(225, 23);
+            this.btnTaskDelete.Name = "btnTaskDelete";
+            this.btnTaskDelete.Size = new System.Drawing.Size(32, 32);
+            this.btnTaskDelete.TabIndex = 4;
+            this.btnTaskDelete.Text = "X";
+            this.btnTaskDelete.UseVisualStyleBackColor = false;
+            this.btnTaskDelete.Click += new System.EventHandler(this.btnTaskDelete_Click);
             // 
             // main
             // 
@@ -232,6 +274,7 @@
             this.groupPomodoro.PerformLayout();
             this.groupWelcome.ResumeLayout(false);
             this.groupWelcome.PerformLayout();
+            this.groupTask.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -250,6 +293,9 @@
         private System.Windows.Forms.GroupBox groupTask;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Button btnTaskDelete;
+        private System.Windows.Forms.Button btnTaskAdd;
+        private System.Windows.Forms.FlowLayoutPanel taskPanel;
     }
 }
 

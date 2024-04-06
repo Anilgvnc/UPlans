@@ -52,6 +52,12 @@
     <Compile Include="AddLink.Designer.cs">
       <DependentUpon>AddLink.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTask.Designer.cs">
+      <DependentUpon>AddTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddLink.resx">
       <DependentUpon>AddLink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTask.resx">
+      <DependentUpon>AddTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

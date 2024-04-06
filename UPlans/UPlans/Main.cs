@@ -24,6 +24,7 @@ namespace UPlans
         {
             LoadWelcome();
             LoadLinks();
+            LoadTasks();
         }
 
         private void LoadWelcome()
@@ -32,6 +33,7 @@ namespace UPlans
             lblDate.Text = DateTime.Now.ToString("hh:mm");
         }
 
+        //Link Panel Components
         private void SaveLinks()
         {
             using (StreamWriter writer = new StreamWriter("links.txt"))
@@ -42,7 +44,8 @@ namespace UPlans
                     {
                         string name = button.Text;
                         string url = (string)button.Tag;
-                        writer.WriteLine($"{name},{url}");
+                        string colorName = button.BackColor.Name;
+                        writer.WriteLine($"{name},{url},{colorName}");
                     }
                 }
             }
@@ -56,14 +59,16 @@ namespace UPlans
                 foreach (string line in lines)
                 {
                     string[] parts = line.Split(',');
-                    if (parts.Length == 2)
+                    if (parts.Length == 3)
                     {
                         string name = parts[0];
                         string url = parts[1];
+                        Color color = Color.FromName(parts[2]);
 
                         Button button = new Button();
                         button.Text = name;
                         button.Tag = url;
+                        button.BackColor = color;
                         button.Click += (s, ev) =>
                         {
                             System.Diagnostics.Process.Start((string)button.Tag);
@@ -89,10 +94,12 @@ namespace UPlans
                 {
                     string linkName = addLink.linkName;
                     string linkUrl = addLink.linkUrl;
+                    Color buttonColor = addLink.linkColor;
 
                     Button button = new Button();
                     button.Text = linkName;
                     button.Tag = linkUrl;
+                    button.BackColor = buttonColor;
                     button.Click += (s, ev) =>
                     {
                         System.Diagnostics.Process.Start((string)button.Tag);
@@ -147,6 +154,66 @@ namespace UPlans
         {
             timer.Stop();
             lblPomoDate.Text = pomodoroDuration.ToString("mm\\:ss");
+        }
+
+
+        //Task Panel Components
+        private void SaveTasks()
+        {
+            using (StreamWriter writer = new StreamWriter("tasks.txt"))
+            {
+                foreach (Control control in taskPanel.Controls)
+                {
+                    if (control is Label label)
+                    {
+                        string name = label.Text;
+                        writer.WriteLine($"{name}");
+                    }
+                }
+            }
+        }
+
+        private void LoadTasks()
+        {
+            if (File.Exists("tasks.txt"))
+            {
+                string[] lines = File.ReadAllLines("tasks.txt");
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length == 1)
+                    {
+                        string name = parts[0];
+
+                        Label label = new Label();
+                        label.Text = name;
+
+                        taskPanel.Controls.Add(label);
+                    }
+                }
+            }
+        }
+        private void btnTaskAdd_Click(object sender, EventArgs e)
+        {
+            using (var addTask = new AddTask())
+            {
+                if (addTask.ShowDialog() == DialogResult.OK)
+                {
+                    string taskName = addTask.taskName;
+
+                    Label label = new Label();
+                    label.Text = taskName;
+
+                    taskPanel.Controls.Add(label);
+                    SaveTasks();
+                }
+            }
+        }
+
+        private void btnTaskDelete_Click(object sender, EventArgs e)
+        {
+            taskPanel.Controls.Clear();
+            File.Delete("tasks.txt");
         }
     }
 }

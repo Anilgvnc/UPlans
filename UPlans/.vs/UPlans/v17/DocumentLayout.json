@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anil\\source\\repos\\UPlans\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|c:\\users\\anil\\source\\repos\\uplans\\uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\source\\repos\\UPlans\\uplans\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|c:\\users\\anil\\source\\repos\\uplans\\uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.cs",
+              "RelativeDocumentMoniker": "UPlans\\Main.cs",
+              "ToolTip": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.cs",
+              "RelativeToolTip": "UPlans\\Main.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T10:38:16.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.cs",
+              "RelativeDocumentMoniker": "UPlans\\Main.cs",
+              "ToolTip": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.cs [Design]",
+              "RelativeToolTip": "UPlans\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T10:19:11.87Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "UPlans\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\anil\\source\\repos\\UPlans\\UPlans\\Main.Designer.cs",
+              "RelativeToolTip": "UPlans\\Main.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T10:12:15.425Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

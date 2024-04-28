@@ -30,7 +30,7 @@ namespace UPlans
         private void LoadWelcome()
         {
             groupWelcome.Text = "Welcome " + System.Windows.Forms.SystemInformation.ComputerName;
-            lblDate.Text = DateTime.Now.ToString("hh:mm");
+            //lblDate.Text = DateTime.Now.ToString("hh:mm");
         }
 
         //Link Panel Components
@@ -80,13 +80,7 @@ namespace UPlans
             }
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-            linkPanel.Controls.Clear();
-            File.Delete("links.txt");
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void btnAddLink_Click(object sender, EventArgs e)
         {
             using (var addLink = new AddLink())
             {
@@ -111,6 +105,12 @@ namespace UPlans
             }
         }
 
+        private void btnDeleteLink_Click(object sender, EventArgs e)
+        {
+            linkPanel.Controls.Clear();
+            File.Delete("links.txt");
+        }
+
         //Pomodoro Timer Components
         private Timer timer;
         DateTime startTime;
@@ -131,7 +131,11 @@ namespace UPlans
             if (remainingTime <= TimeSpan.Zero)
             {
                 timer.Stop();
-                MessageBox.Show("Pomodoro time is over. Time for a break!");
+                MessageBox.Show("Pomodoro time is over.", " Time for a break!", MessageBoxButtons.OK, MessageBoxIcon.Information );
+                
+                //button conf
+                btnPomoStart.Visible = true;
+                btnReset.Visible = false;
                 return;
             }
 
@@ -142,18 +146,20 @@ namespace UPlans
         {
             startTime = DateTime.Now;
             timer.Start();
-        }
 
-        private void btnStop_Click(object sender, EventArgs e)
-        {
-            timer.Stop();
-            lblPomoDate.Text = pomodoroDuration.ToString("mm\\:ss");
+            //button conf
+            btnPomoStart.Visible = false;
+            btnReset.Visible = true;
         }
 
         private void btnReset_Click(object sender, EventArgs e)
         {
             timer.Stop();
             lblPomoDate.Text = pomodoroDuration.ToString("mm\\:ss");
+
+            //button conf
+            btnPomoStart.Visible = true;
+            btnReset.Visible = false;
         }
 
 
@@ -220,5 +226,16 @@ namespace UPlans
             taskPanel.Controls.Clear();
             File.Delete("tasks.txt");
         }
+
+        private void btnClosePanel_Click(object sender, EventArgs e)
+        {
+            componentPanel.Visible = false;
+        }
+
+        private void btnOpenPanel_Click(object sender, EventArgs e)
+        {
+            componentPanel.Visible = true;
+        }
+
     }
 }

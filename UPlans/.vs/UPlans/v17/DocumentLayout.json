@@ -3,42 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UPlans||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|c:\\users\\anil\\documents\\github\\uplans\\uplans\\uplans\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\addtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|c:\\users\\anil\\documents\\github\\uplans\\uplans\\uplans\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|c:\\users\\anil\\documents\\github\\uplans\\uplans\\uplans\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
+      "AbsoluteMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68D53570-7547-4B02-B3A5-CEB365D9B569}|UPlans\\UPlans.csproj|solutionrelative:uplans\\addlink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,73 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "UPlans\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Properties\\Resources.resx",
-              "RelativeToolTip": "UPlans\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-04-06T12:29:41.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UPlans",
-              "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\UPlans.csproj",
-              "RelativeDocumentMoniker": "UPlans\\UPlans.csproj",
-              "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\UPlans.csproj",
-              "RelativeToolTip": "UPlans\\UPlans.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-06T11:49:29.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddTask.cs",
-              "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddTask.cs",
-              "RelativeDocumentMoniker": "UPlans\\AddTask.cs",
-              "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddTask.cs",
-              "RelativeToolTip": "UPlans\\AddTask.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAiwDAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T11:11:46.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddTask.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddTask.cs",
-              "RelativeDocumentMoniker": "UPlans\\AddTask.cs",
-              "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddTask.cs [Design]",
-              "RelativeToolTip": "UPlans\\AddTask.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T11:09:40.775Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AddLink.cs",
               "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddLink.cs",
               "RelativeDocumentMoniker": "UPlans\\AddLink.cs",
               "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddLink.cs",
               "RelativeToolTip": "UPlans\\AddLink.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADIAAAAlAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAtwB8AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T10:56:54.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddLink.cs [Design]",
               "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\AddLink.cs",
               "RelativeDocumentMoniker": "UPlans\\AddLink.cs",
@@ -132,14 +61,14 @@
               "RelativeDocumentMoniker": "UPlans\\Main.cs",
               "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Main.cs",
               "RelativeToolTip": "UPlans\\Main.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAUwNEAAAAwAAAA",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAMwPEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T10:38:16.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Main.cs [Design]",
               "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Main.cs",
               "RelativeDocumentMoniker": "UPlans\\Main.cs",
@@ -148,19 +77,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-06T10:19:11.87Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Main.Designer.cs",
-              "RelativeDocumentMoniker": "UPlans\\Main.Designer.cs",
-              "ToolTip": "C:\\Users\\anil\\Documents\\GitHub\\UPlans\\UPlans\\UPlans\\Main.Designer.cs",
-              "RelativeToolTip": "UPlans\\Main.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T10:12:15.425Z",
-              "EditorCaption": ""
             }
           ]
         }

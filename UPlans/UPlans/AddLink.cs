@@ -22,13 +22,27 @@ namespace UPlans
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtName.Text) && !string.IsNullOrEmpty(txtUrl.Text))
+            try
             {
+
+                if (string.IsNullOrEmpty(txtName.Text) && string.IsNullOrEmpty(txtUrl.Text))
+                {
+                    throw new Exception("Please fully fill all fields");
+                }
+                if (txtUrl.Text.Trim().Split('.').Length < 2)
+                {
+                    throw new Exception("Please enter valid URL");
+                }
+
                 linkName = txtName.Text;
                 linkUrl = txtUrl.Text;
                 linkColor = lblColor.BackColor;
                 DialogResult = DialogResult.OK;
                 this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
